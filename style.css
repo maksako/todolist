@@ -12,10 +12,13 @@
 .float-left{
   float: left;
 }
+.float-right{
+  float: right;
+}
 .background-container{
   width: 100%;
   margin: 0 auto;
-  background-color: orange;
+  /*background-color: orange;*/
   position: relative;
 }
 .background-image{
@@ -25,35 +28,88 @@
   position: absolute;
   width: 605px;
   height: 587px;
-  background-color: orange;
+  background-color: white;
   top: 130px;
   left: 380px;
 }
 .header{
-  background-color: yellow;
+  background-color: rgba(157, 169, 195, 0.8);
   height: 70px;
 }
 .header-span-container{
   position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: grey;
+  top: 18px;
+  left: 18px;
+  /*background-color: grey;*/
 }
 button.slider-link{
-  border: 3px solid #aab5c9;
+  border: none;
   border-radius: 50%;
-  background-color: #bca177;
+  /*background-color: #bca177;*/
   display: block;
   width: 10px;
   height: 10px;
   margin-right: 5px;
 }
 .close-button{
-  color: solid red;
+  background-color: red;
 }
 .hide-button{
-  color: solid yellow;
+  background-color: yellow;
 }
 .maximize-button{
-  color: solid green;
+  background-color: green;
 }
+.main-title{
+  text-align: center;
+  margin-left: 263px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+.main-actions{
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.search-container{
+  /*margin-top: 30px;*/
+  /*margin-left: 190px;*/
+  /*background-color: orange;
+  height: 35px;
+  width: 35px;*/
+}
+.header .main-actions i{
+  font-size: 25px;
+  color: white;
+  opacity: 0.5;
+}
+.header .main-actions i:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+/*i.fa-search{
+  font-size: 25px;
+  color: white;
+  opacity: 0.5;
+}*/
+/*i.fa-search:hover{
+  opacity: 1;
+  cursor: pointer;
+}*/
+.add-task-container{
+  /*margin-top: 30px;*/
+  margin-left: 15px;
+  /*background-color: yellow;
+  height: 35px;
+  width: 35px;*/
+}
+/*i.fa-plus-circle{
+  font-size: 25px;
+  color: white;
+  opacity: 0.5;
+}*/
+/*i.fa-plus-circle:hover{
+  opacity: 1;
+  cursor: pointer;
+}*/
