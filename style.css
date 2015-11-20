@@ -122,6 +122,16 @@ button.slider-link{
   height: 35px;
   width: 35px;*/
 }
+.arrow-right{
+  width:0;
+  height:0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #4a4f62;
+  left: 62px;
+  top: 98px;
+  position: absolute;
+}
 /*i.fa-plus-circle{
   font-size: 25px;
   color: white;
@@ -132,7 +142,7 @@ button.slider-link{
   cursor: pointer;
 }*/
 .tasks-background-container{
-  background-color: yellow;
+  /*background-color: yellow;*/
   height: 517px;
 }
 .tasks-navigation-container{
@@ -144,11 +154,11 @@ button.slider-link{
   width: 72px;
   height: 72px;
   font-size: 30px;
-  opacity: 0.8;
+  opacity: 1;
 }
 .navigation-button:hover{
   cursor: pointer;
-  opacity: 1;
+  opacity: 0.8;
 }
 .all-tasks{
   background-color: #52596c;
@@ -171,4 +181,109 @@ button.slider-link{
   top: 520px;
   opacity: 0.3;
   font-size: 20px;
+}
+.tasks-description-container{
+  height: 517px;
+  width: 533px;
+  background-color: orange;
+}
+.nearest-task{
+	/*border: 1px solid #000;*/
+	position: relative;
+	min-height: 200px;
+	padding-left: 60px;
+	background-color: #52596c;
+	width: 463px;
+  /*margin-left: 72px;*/
+  border-right: 10px solid #fe6d6a;
+}
+.task-checkbox-container{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 50px;
+	background: #4a4f62;
+	/*border-right: 5px solid black;*/
+}
+.inner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	/*background: #f00;*/
+	width: 20px;
+	height: 20px;
+	margin: auto;
+  border-radius: 50%;
+  border: 1px solid white;
+  opacity: 0.5;
+}
+.inner:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.location-marker{
+  position: absolute;
+  color: white;
+  opacity: 0.5;
+  /*margin-left: 20px;
+  margin-right: 5px;*/
+  top: 20px;
+  left: 80px;
+  font-size: 18px;
+  /*font-weight: bold;*/
+}
+.location-marker:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.nearest-task-sign{
+  position: absolute;
+  color: white;
+  opacity: 0.5;
+  top: 20px;
+  left: 480px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nearest-task-sign:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.nearest-task-inner-container-header{
+  /*height: 60px;*/
+  color: white;
+  opacity: 0.5;
+  font-size: 12px;
+  padding-top: 24px;
+  padding-left: 40px;
+}
+.small-text{
+  /*display: inline-block;*/
+  /*margin-bottom: 5px;*/
+  /*margin-left: 5px;
+  margin-top: 24px;*/
+  /*color: white;
+  opacity: 0.5;
+  font-size: 12px;*/
+  /*border-right: 1px solid black;*/
+  /*width: 53px;*/
+}
+.small-text-date{
+  /*margin-left: 5px;*/
+  /*margin-right: 5px;*/
+  /*margin-top: 24px;*/
+  /*color: white;
+  opacity: 0.5;
+  font-size: 12px;*/
+  /*width: 90px;*/
+}
+.nearest-task-big-text{
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+  padding: 0 10px 5px 0;
+  /*text-align: justify;*/
 }
